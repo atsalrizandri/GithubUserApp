@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/mBar_Fav"
+            android:title="@string/favorite_user"
+            android:contentDescription="@string/favorite_user"
+            android:icon="@drawable/ic_fav_isfill"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/mBar_Setting"
+            android:title="@string/setting"
+            app:showAsAction="never"/>
+    </group>
+</menu>
